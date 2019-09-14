@@ -5,3 +5,13 @@ The model serving module is available inside the model-serving-docker directory.
 For building docker image, go to the directory where Dockerfile resides, and issued command docker build .  This will build the docker image.
 
 For running the image, run the commmand - docker run -p 5000:5000 "image-name"
+
+
+DETAILS OF TRAINING
+
+Number of Images
+Accuracy
+Any comments
+Where it is trained
+How much time did this take
+Also copy the model file to Google Drive and include in the script, model serving script.
