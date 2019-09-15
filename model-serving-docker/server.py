@@ -9,8 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1Wa-DPSL_EuRdaY9CLcdo1qXO0xrbTII9'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Vu4hrLgFT-ITCtrChzc2pJFjH3e6-Ngk'
 export_file_name = 'roses-model.pkl'
+
+#https://drive.google.com/file/d//view
 
 classes = ['rosa-canina', 'rosa-centifolia', 'rosa-glauca']
 path = Path(__file__).parent
@@ -30,7 +32,7 @@ async def download_file(url, dest):
 
 
 async def setup_learner():
-    #await download_file(export_file_url, path / export_file_name)
+    await download_file(export_file_url, path / export_file_name)
     try:
         learn = load_learner(path, export_file_name)
         return learn
