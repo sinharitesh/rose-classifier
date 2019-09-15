@@ -9,8 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1Vu4hrLgFT-ITCtrChzc2pJFjH3e6-Ngk'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1x7U1DVl_yUJ7b-esDS8Mz2GNV1GP0MrS'
 export_file_name = 'roses-model.pkl'
+
+#https://drive.google.com/file/d/1x7U1DVl_yUJ7b-esDS8Mz2GNV1GP0MrS/view?usp=sharing
 
 #https://drive.google.com/file/d//view
 
